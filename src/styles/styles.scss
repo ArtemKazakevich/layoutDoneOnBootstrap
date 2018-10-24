@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(../fonts/Raleway/Raleway-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+}
+html {
+  font-size: 16px;
+}
+header {
+  background: url(../img/photo.png);
+}
+.header-wrapper {
+  padding: 3% 10% 0 10%;
+  background-color: #545556;
+  opacity: 0.7;
+}
+.header-wrapper h1 {
+  font-size: 26px;
+  color: #ffffff;
+  font-family: "Raleway";
+}
+.link_style_logo{
+  text-decoration: none;
+}
+.link_style_logo:link{
+  color: #bae5f3;
+}
+.link_style_logo:visited{
+  color: #bae5f3;
+}
+.link_style_logo:hover{
+  text-decoration: none;
+  color: #bae5f3;
+}
+.link_style_logo:active{
+  color: #bae5f3;
+}
+.link_style_nav a {
+  font-size: 12px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+.link_style_nav a:link{
+  color: #bae5f3;
+}
+.link_style_nav a:visited{
+  color: #d4d4d3;
+}
+.link_style_nav a:hover{
+  color: #c7b299;
+}
+.link_style_nav a:active{
+  color: #c7b299;
+}
+.header-content{
+  align-items: center;
+  margin: 20% 0 0 0;
+}
