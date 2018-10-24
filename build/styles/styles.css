@@ -21,7 +21,7 @@ header {
   opacity: 0.7; }
 
 .header-wrapper h1 {
-  font-size: 26px;
+  font-size: 25px;
   color: #ffffff;
   font-family: "Raleway"; }
 
@@ -42,7 +42,7 @@ header {
   color: #bae5f3; }
 
 .link_style_nav a {
-  font-size: 12px;
+  font-size: 10px;
   color: #ffffff;
   font-family: "Montserrat";
   font-weight: 300; }
@@ -59,8 +59,5 @@ header {
 .link_style_nav a:active {
   color: #c7b299; }
 
-.header-content {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin: 20% 0 0 0; }
+.slider_content {
+  padding: 20% 20%; }
