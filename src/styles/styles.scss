@@ -26,20 +26,20 @@ header {
   color: #ffffff;
   font-family: "Raleway";
 }
-.link_style_logo{
+.link_style_logo {
   text-decoration: none;
 }
-.link_style_logo:link{
+.link_style_logo:link {
   color: #bae5f3;
 }
-.link_style_logo:visited{
+.link_style_logo:visited {
   color: #bae5f3;
 }
-.link_style_logo:hover{
+.link_style_logo:hover {
   text-decoration: none;
   color: #bae5f3;
 }
-.link_style_logo:active{
+.link_style_logo:active {
   color: #bae5f3;
 }
 .link_style_nav a {
@@ -48,19 +48,66 @@ header {
   font-family: "Montserrat";
   font-weight: 300;
 }
-.link_style_nav a:link{
+.link_style_nav a:link {
   color: #bae5f3;
 }
-.link_style_nav a:visited{
+.link_style_nav a:visited {
   color: #d4d4d3;
 }
-.link_style_nav a:hover{
+.link_style_nav a:hover {
   color: #c7b299;
 }
-.link_style_nav a:active{
+.link_style_nav a:active {
   color: #c7b299;
 }
-.slider_content{
-  padding: 20% 20%;
+.slider_content {
+  padding: 15% 20%;
 }
-
+.slider_content h5 {
+  font-size: 36px;
+  color: #ffffff;
+  font-family: "Raleway";
+}
+.slider_content h6 {
+  font-size: 52px;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: bold;
+}
+.slider_content p {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+.services {
+  padding: 0 10%;
+}
+.services h2 {
+  font-size: 22px;
+  color: #555555;
+  font-family: "Raleway";
+  font-weight: bold;
+}
+.services p {
+  font-size: 13px;
+  color: #8c8c8c;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+.services-img_web {
+  padding-top: 7%;
+  background: url(../img/icon3.png) no-repeat top center;
+}
+.services-img_development {
+  padding-top: 7%;
+  background: url(../img/icon2.png) no-repeat top center;
+}
+.services-img_customization {
+  padding-top: 7%;
+  background: url(../img/icon1.png) no-repeat top center;
+}
+.services-img_marketing {
+  padding-top: 7%;
+  background: url(../img/icon.png) no-repeat top center;
+}
