@@ -13,7 +13,8 @@ html {
   font-size: 16px; }
 
 header {
-  background: url(../img/photo.png); }
+  background: url(../img/photo.png);
+  background-size: 100%; }
 
 .header-wrapper {
   padding: 3% 10% 0 10%;
@@ -94,6 +95,18 @@ header {
   font-family: "Montserrat";
   font-weight: 300; }
 
+.services a {
+  text-decoration: none; }
+
+.services a:hover h2 {
+  color: #c7b299; }
+
+.services a:hover p {
+  color: #c7b299; }
+
+.services a:hover .line {
+  background-color: #c7b299; }
+
 .services-img_web {
   padding-top: 7%;
   background: url(../img/icon3.png) no-repeat top center; }
@@ -109,3 +122,46 @@ header {
 .services-img_marketing {
   padding-top: 7%;
   background: url(../img/icon.png) no-repeat top center; }
+
+.line {
+  border: none;
+  height: 4px;
+  width: 70px;
+  background-color: #f1eee9; }
+
+.portfolio_PSD_template {
+  padding: 0 10%;
+  background: #fbfaf8; }
+
+.portfolio_PSD_template h2 {
+  font-size: 30px;
+  color: #555555;
+  font-family: "Raleway";
+  font-weight: bold; }
+
+.portfolio_PSD_template p {
+  font-size: 16px;
+  color: #8c8c8c;
+  font-family: "Montserrat";
+  font-weight: 300; }
+
+.overlay_pictures_left {
+  z-index: 1;
+  left: 0;
+  bottom: 0; }
+
+.overlay_pictures_center {
+  z-index: 3;
+  position: absolute;
+  left: 25%;
+  bottom: 0; }
+
+.overlay_pictures_right {
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+.wrapper_theme {
+  background-color: #241d1a;
+  padding: 0 10%; }
