@@ -214,7 +214,8 @@ header {
   position: relative; }
 
 .recent_projects img {
-  width: 100%; }
+  width: 100%;
+  height: 250px; }
 
 .block_text_design::before {
   content: "";
@@ -224,35 +225,27 @@ header {
   border: 10px solid transparent;
   border-bottom: 10px solid #fbfaf8; }
 
-.recent_projects_background_overlay {
-  display: none; }
-
-.recent_projects:hover .recent_projects_background_overlay {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0; }
-
-.recent_projects_background_overlay h3 {
+.recent_projects:hover h3 {
   font-size: 20px;
   color: #ffffff;
   font-family: "Raleway"; }
 
-.recent_projects_background_overlay p {
+.recent_projects:hover p {
   font-size: 14px;
   color: #c7b299;
   font-family: "Montserrat";
   font-weight: 300; }
 
-.recent_projects_background_overlay .block_text_design_overlay {
+.recent_projects:hover .block_text_design {
   background: #352f2d;
   position: relative; }
 
-.recent_projects_background_overlay img {
+.recent_projects:hover img {
   width: 100%;
+  height: 250px;
   opacity: 0.2; }
 
-.recent_projects_background_overlay .block_text_design_overlay::before {
+.recent_projects:hover .block_text_design::before {
   content: "";
   position: absolute;
   left: 20px;
@@ -260,11 +253,11 @@ header {
   border: 10px solid transparent;
   border-bottom: 10px solid #352f2d; }
 
-.recent_projects_background_overlay .darkening_pictures {
+.recent_projects:hover .darkening_pictures {
   background-color: #352f2d;
-  opacity: 0.8; }
+  opacity: 1; }
 
-.recent_projects_background_overlay .zoom_in_and_out {
+.recent_projects:hover .zoom_in_and_out {
   background: url(../img/link.png) no-repeat 120px 100px, url(../img/lupa12.png) no-repeat 200px 100px; }
 
 .wrapper_video {
@@ -282,3 +275,80 @@ header {
   color: #ffffff;
   font-family: "Montserrat";
   font-weight: 300; }
+
+.wrapper_product_injection {
+  margin: 5% 0 0 0;
+  padding: 0 15%;
+  background: url(../img/iPhone_in_hand.png) no-repeat 20% bottom;
+  background-size: contain; }
+
+.product_injection {
+  padding: 10% 0;
+  margin-left: 40%; }
+
+.product_injection h2 {
+  font-size: 30px;
+  color: #555555;
+  font-family: "Raleway";
+  font-weight: bold; }
+
+.product_injection p {
+  font-size: 16px;
+  color: #8c8c8c;
+  font-family: "Montserrat";
+  font-weight: 300; }
+
+.product_injection ul {
+  padding: 0 0 0 4%;
+  margin: 0; }
+
+.product_injection li {
+  font-size: 14px;
+  color: #8c8c8c;
+  font-family: "Montserrat";
+  font-weight: 300;
+  list-style: none;
+  background: url(../img/04.png) no-repeat left center;
+  padding-left: 8%; }
+
+.wrapper_counters {
+  padding: 3% 15%;
+  background-color: #241d1a; }
+
+.wrapper_counters h2 {
+  font-size: 48px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 300; }
+
+.wrapper_counters p {
+  font-size: 14px;
+  color: #c7b299;
+  font-family: "Montserrat";
+  font-weight: 300; }
+
+.line_counters {
+  border: none;
+  height: 3px;
+  width: 30px;
+  background-color: #c3effc; }
+
+.img_clients {
+  padding-top: 6%;
+  background: url(../img/icon14.png) no-repeat top center; }
+
+.img_coffee {
+  padding-top: 6%;
+  background: url(../img/icon13.png) no-repeat top center; }
+
+.img_posts {
+  padding-top: 6%;
+  background: url(../img/icon12.png) no-repeat top center; }
+
+.img_likes {
+  padding-top: 6%;
+  background: url(../img/icon11.png) no-repeat top center; }
+
+.img_launched {
+  padding-top: 6%;
+  background: url(../img/icon1234.png) no-repeat top center; }
