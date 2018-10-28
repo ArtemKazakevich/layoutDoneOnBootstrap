@@ -192,12 +192,9 @@ header {
   font-family: "Montserrat";
   font-weight: 300;
 }
+
 .wrapper_recent_projects_img {
   padding: 0 10%;
-}
-.recent_projects {
-  position: relative;
-  cursor: pointer;
 }
 .block_text_design h3 {
   font-size: 20px;
@@ -337,26 +334,182 @@ header {
   width: 30px;
   background-color: #c3effc;
 }
-.img_clients{
+.img_clients {
   padding-top: 6%;
   background: url(../img/icon14.png) no-repeat top center;
 }
-.img_coffee{
+.img_coffee {
   padding-top: 6%;
   background: url(../img/icon13.png) no-repeat top center;
 }
-.img_posts{
+.img_posts {
   padding-top: 6%;
   background: url(../img/icon12.png) no-repeat top center;
 }
-.img_likes{
+.img_likes {
   padding-top: 6%;
   background: url(../img/icon11.png) no-repeat top center;
 }
-.img_launched{
+.img_launched {
   padding-top: 6%;
   background: url(../img/icon1234.png) no-repeat top center;
 }
-.wrapper_recent_posts{
 
+.wrapper_recent_posts {
+  padding: 5% 10%;
+  background: url(../img/left.png) no-repeat 48% bottom,
+    url(../img/right.png) no-repeat 52% bottom;
+}
+.recent_posts {
+  border: 1px solid #8c8c8c;
+}
+.recent_posts h3 {
+  font-size: 20px;
+  color: #555555;
+  font-family: "Raleway";
+}
+.recent_posts p {
+  font-size: 14px;
+  color: #8c8c8c;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+.recent_posts a {
+  color: #8c8c8c;
+}
+.recent_posts img {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  z-index: 1;
+}
+.arrow_img {
+  background: url(../img/arrow.png) no-repeat 35% center;
+}
+.items::before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  background: url(../img/01Point.png) no-repeat center center,
+    url(../img/Date10.png) no-repeat 5% 5%;
+  z-index: 5;
+}
+
+.recent_posts:hover {
+  background: #241d1a;
+}
+.recent_posts:hover h3 {
+  color: #c7b299;
+}
+.recent_posts:hover p {
+  color: #ffffff;
+}
+.recent_posts:hover a {
+  color: #c7b299;
+}
+.recent_posts:hover img {
+  opacity: 0.3;
+  position: relative;
+  z-index: 1;
+}
+.recent_posts:hover .items::before {
+  background: url(../img/Date11.png) no-repeat 5% 5%;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+}
+.wapper_partners {
+  height: 550px;
+  background: url(../img/photo24.png) no-repeat;
+  background-size: 100%;
+}
+.partners_background {
+  background-color: #241d1a;
+  height: 550px;
+  opacity: 0.8;
+}
+.partners {
+  height: 550px;
+  background: url(../img/logo-01.png) no-repeat 10% center,
+    url(../img/logo-02.png) no-repeat 35% center,
+    url(../img/logo-03.png) no-repeat 60% center,
+    url(../img/logo-04.png) no-repeat 85% center;
+}
+
+.wapper_footer {
+  padding: 5% 10%;
+  background-color: #241d1a;
+}
+.wapper_footer h2 {
+  font-size: 34px;
+  letter-spacing: -1px;
+  font-family: "Raleway";
+  padding-left: 5%;
+}
+.wapper_footer h2 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.wapper_footer h3 {
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: bold;
+}
+.wapper_footer h4 {
+  font-size: 12px;
+  color: #363636;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+.wapper_footer p {
+  font-size: 14px;
+  color: #555555;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+.wapper_footer .arrow_footer {
+  font-size: 14px;
+  color: #d1d1d1;
+  font-family: "Montserrat";
+  text-decoration: none;
+  background: url(../img/arrow.png) no-repeat 100% center;
+  padding-right: 5%;
+}
+.wapper_footer hr {
+  background: #555555;
+}
+.decor_mailto a {
+  text-decoration: none;
+}
+.wapper_footer .decor_data {
+  color: #ffffff;
+}
+.wapper_footer .decor_description {
+  color: #c7b299;
+}
+.drible_widget img {
+  width: 100%;
+  height: 85px;
+}
+.wapper_copiright {
+  background-color: #101010;
+  padding: 3% 10%;
+  font-size: 13px;
+  color: #555555;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+.wapper_copiright .backgroud_list {
+  background-color: #101010;
+}
+.wapper_copiright a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #c7b299;
+  font-family: "Montserrat";
+  font-weight: 300;
 }
