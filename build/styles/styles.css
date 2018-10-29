@@ -22,7 +22,7 @@ header {
   opacity: 0.7; }
 
 .header-wrapper h1 {
-  font-size: 25px;
+  font-size: 1.5625rem;
   color: #ffffff;
   font-family: "Raleway"; }
 
@@ -43,7 +43,7 @@ header {
   color: #bae5f3; }
 
 .link_style_nav a {
-  font-size: 10px;
+  font-size: 0.625rem;
   color: #ffffff;
   font-family: "Montserrat";
   font-weight: 300; }
@@ -64,18 +64,18 @@ header {
   padding: 15% 20%; }
 
 .slider_content h5 {
-  font-size: 36px;
+  font-size: 2.1875rem;
   color: #ffffff;
   font-family: "Raleway"; }
 
 .slider_content h6 {
-  font-size: 52px;
+  font-size: 3.25rem;
   color: #ffffff;
   font-family: "Raleway";
   font-weight: bold; }
 
 .slider_content p {
-  font-size: 16px;
+  font-size: 1rem;
   color: #ffffff;
   font-family: "Montserrat";
   font-weight: 300; }
@@ -84,13 +84,13 @@ header {
   padding: 0 10%; }
 
 .services h2 {
-  font-size: 22px;
+  font-size: 1.4375rem;
   color: #555555;
   font-family: "Raleway";
   font-weight: bold; }
 
 .services p {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #8c8c8c;
   font-family: "Montserrat";
   font-weight: 300; }
@@ -134,13 +134,13 @@ header {
   background: #fbfaf8; }
 
 .portfolio_PSD_template h2 {
-  font-size: 30px;
+  font-size: 1.8125rem;
   color: #555555;
   font-family: "Raleway";
   font-weight: bold; }
 
 .portfolio_PSD_template p {
-  font-size: 16px;
+  font-size: 1rem;
   color: #8c8c8c;
   font-family: "Montserrat";
   font-weight: 300; }
@@ -167,12 +167,12 @@ header {
   padding: 0 13%; }
 
 .wrapper_theme h2 {
-  font-size: 28px;
+  font-size: 1.8125rem;
   color: #c7b299;
   font-family: "Raleway"; }
 
 .wrapper_theme p {
-  font-size: 18px;
+  font-size: 1.1875rem;
   color: #615855;
   font-family: "Montserrat";
   font-weight: 300; }
@@ -181,7 +181,7 @@ header {
   padding: 0 10%; }
 
 .wrapper_recent_projects h2 {
-  font-size: 30px;
+  font-size: 1.8125rem;
   color: #555555;
   font-family: "Raleway";
   font-weight: bold; }
@@ -195,12 +195,12 @@ header {
   padding: 0 10%; }
 
 .block_text_design h3 {
-  font-size: 20px;
+  font-size: 1.1875rem;
   color: #c7b299;
   font-family: "Raleway"; }
 
 .block_text_design p {
-  font-size: 14px;
+  font-size: 0.8125rem;
   color: #d1d1d1;
   font-family: "Montserrat";
   font-weight: 300; }
@@ -222,12 +222,12 @@ header {
   border-bottom: 10px solid #fbfaf8; }
 
 .recent_projects:hover h3 {
-  font-size: 20px;
+  font-size: 1.1875rem;
   color: #ffffff;
   font-family: "Raleway"; }
 
 .recent_projects:hover p {
-  font-size: 14px;
+  font-size: 0.8125rem;
   color: #c7b299;
   font-family: "Montserrat";
   font-weight: 300; }
@@ -262,12 +262,12 @@ header {
   background-size: 100%; }
 
 .wrapper_video h2 {
-  font-size: 30px;
+  font-size: 1.8125rem;
   color: #ffffff;
   font-family: "Raleway"; }
 
 .wrapper_video p {
-  font-size: 16px;
+  font-size: 1rem;
   color: #ffffff;
   font-family: "Montserrat";
   font-weight: 300; }
@@ -283,13 +283,13 @@ header {
   margin-left: 40%; }
 
 .product_injection h2 {
-  font-size: 30px;
+  font-size: 1.8125rem;
   color: #555555;
   font-family: "Raleway";
   font-weight: bold; }
 
 .product_injection p {
-  font-size: 16px;
+  font-size: 1rem;
   color: #8c8c8c;
   font-family: "Montserrat";
   font-weight: 300; }
@@ -299,7 +299,7 @@ header {
   margin: 0; }
 
 .product_injection li {
-  font-size: 14px;
+  font-size: 0.8125rem;
   color: #8c8c8c;
   font-family: "Montserrat";
   font-weight: 300;
@@ -312,13 +312,13 @@ header {
   background-color: #241d1a; }
 
 .wrapper_counters h2 {
-  font-size: 48px;
+  font-size: 3rem;
   color: #ffffff;
   font-family: "Montserrat";
   font-weight: 300; }
 
 .wrapper_counters p {
-  font-size: 14px;
+  font-size: 1rem;
   color: #c7b299;
   font-family: "Montserrat";
   font-weight: 300; }
@@ -353,16 +353,28 @@ header {
   padding: 5% 10%;
   background: url(../img/left.png) no-repeat 48% bottom, url(../img/right.png) no-repeat 52% bottom; }
 
+.wrapper_recent_posts h2 {
+  font-size: 1.8125rem;
+  color: #555555;
+  font-family: "Raleway";
+  font-weight: bold; }
+
+.wrapper_recent_posts p {
+  font-size: 1rem;
+  color: #8c8c8c;
+  font-family: "Montserrat";
+  font-weight: 300; }
+
 .recent_posts {
   border: 1px solid #8c8c8c; }
 
 .recent_posts h3 {
-  font-size: 20px;
+  font-size: 1.1875rem;
   color: #555555;
   font-family: "Raleway"; }
 
 .recent_posts p {
-  font-size: 14px;
+  font-size: 0.8125rem;
   color: #8c8c8c;
   font-family: "Montserrat";
   font-weight: 300; }
@@ -431,7 +443,7 @@ header {
   background-color: #241d1a; }
 
 .wapper_footer h2 {
-  font-size: 34px;
+  font-size: 2.1875rem;
   letter-spacing: -1px;
   font-family: "Raleway";
   padding-left: 5%; }
@@ -441,25 +453,25 @@ header {
   color: #ffffff; }
 
 .wapper_footer h3 {
-  font-size: 24px;
+  font-size: 1.4375rem;
   color: #ffffff;
   font-family: "Raleway";
   font-weight: bold; }
 
 .wapper_footer h4 {
-  font-size: 12px;
+  font-size: 0.8125rem;
   color: #363636;
   font-family: "Montserrat";
   font-weight: 300; }
 
 .wapper_footer p {
-  font-size: 14px;
+  font-size: 0.8125rem;
   color: #555555;
   font-family: "Montserrat";
   font-weight: 300; }
 
 .wapper_footer .arrow_footer {
-  font-size: 14px;
+  font-size: 0.8125rem;
   color: #d1d1d1;
   font-family: "Montserrat";
   text-decoration: none;
@@ -485,7 +497,7 @@ header {
 .wapper_copiright {
   background-color: #101010;
   padding: 3% 10%;
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #555555;
   font-family: "Montserrat";
   font-weight: 300; }
@@ -495,7 +507,7 @@ header {
 
 .wapper_copiright a {
   text-decoration: none;
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #c7b299;
   font-family: "Montserrat";
   font-weight: 300; }
