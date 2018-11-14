@@ -195,7 +195,6 @@ header {
 }
 .recent_projects img {
   width: 100%;
-  height: 250px;
 }
 .block_text_design::before {
   content: "";
@@ -218,7 +217,6 @@ header {
 }
 .recent_projects:hover img {
   width: 100%;
-  height: 250px;
   opacity: 0.2;
 }
 .recent_projects:hover .block_text_design::before {
@@ -337,7 +335,6 @@ header {
 }
 .recent_posts img {
   width: 100%;
-  height: 200px;
   position: relative;
   z-index: 1;
 }
@@ -438,7 +435,6 @@ header {
 }
 .drible_widget img {
   width: 100%;
-  height: 85px;
 }
 .wapper_copiright {
   background-color: #101010;
@@ -451,28 +447,4 @@ header {
 .wapper_copiright a {
   text-decoration: none;
   @include fontsStyle(0.8125rem, $fontWeight_1, $fontsColor_h2_hover, $fontFamily_2);
-}
-
-/*-------------- @media -----------------*/
-
-@media screen and (min-device-width: 1400px) {
-  .recent_projects img {
-    width: 100%;
-    height: 300px;
-  }
-  .recent_projects:hover img {
-    width: 100%;
-    height: 300px;
-    opacity: 0.2;
-  }
-  .recent_posts img {
-    width: 100%;
-    height: 250px;
-    position: relative;
-    z-index: 1;
-  }
-  .drible_widget img {
-    width: 100%;
-    height: 105px;
-  }
 }

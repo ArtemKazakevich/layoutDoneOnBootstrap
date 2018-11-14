@@ -215,8 +215,7 @@ header {
   position: relative; }
 
 .recent_projects img {
-  width: 100%;
-  height: 250px; }
+  width: 100%; }
 
 .block_text_design::before {
   content: "";
@@ -244,7 +243,6 @@ header {
 
 .recent_projects:hover img {
   width: 100%;
-  height: 250px;
   opacity: 0.2; }
 
 .recent_projects:hover .block_text_design::before {
@@ -392,7 +390,6 @@ header {
 
 .recent_posts img {
   width: 100%;
-  height: 200px;
   position: relative;
   z-index: 1; }
 
@@ -501,8 +498,7 @@ header {
   color: #c7b299; }
 
 .drible_widget img {
-  width: 100%;
-  height: 85px; }
+  width: 100%; }
 
 .wapper_copiright {
   background-color: #101010;
@@ -521,21 +517,3 @@ header {
   font-weight: 300;
   color: #c7b299;
   font-family: "Montserrat"; }
-
-/*-------------- @media -----------------*/
-@media screen and (min-device-width: 1400px) {
-  .recent_projects img {
-    width: 100%;
-    height: 300px; }
-  .recent_projects:hover img {
-    width: 100%;
-    height: 300px;
-    opacity: 0.2; }
-  .recent_posts img {
-    width: 100%;
-    height: 250px;
-    position: relative;
-    z-index: 1; }
-  .drible_widget img {
-    width: 100%;
-    height: 105px; } }
