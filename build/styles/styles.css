@@ -21,6 +21,9 @@ header {
   background-color: #545556;
   opacity: 0.7; }
 
+.header-wrapper a {
+  outline: none; }
+
 .header-wrapper h1 {
   font-size: 1.5625rem;
   font-weight: normal;
@@ -98,7 +101,8 @@ header {
   font-family: "Montserrat"; }
 
 .services a {
-  text-decoration: none; }
+  text-decoration: none;
+  outline: none; }
 
 .services a:hover h2 {
   color: #c7b299; }
@@ -264,6 +268,9 @@ header {
   padding: 10% 20%;
   background: url(../img/photo16.png) no-repeat;
   background-size: 100%; }
+
+.wrapper_video a {
+  outline: none; }
 
 .wrapper_video h2 {
   font-size: 1.8125rem;
@@ -447,6 +454,9 @@ header {
   padding: 5% 10%;
   background-color: #241d1a; }
 
+.wapper_footer a {
+  outline: none; }
+
 .wapper_footer h2 {
   padding-left: 5%; }
 
@@ -516,4 +526,5 @@ header {
   font-size: 0.8125rem;
   font-weight: 300;
   color: #c7b299;
-  font-family: "Montserrat"; }
+  font-family: "Montserrat";
+  outline: none; }

@@ -44,6 +44,9 @@ header {
   background-color: #545556;
   opacity: 0.7;
 }
+.header-wrapper a{
+  outline: none;
+}
 .header-wrapper h1 {
   @include fontsStyle(1.5625rem, normal, $fontsColor_1, $fontFamily_1);
 }
@@ -101,6 +104,7 @@ header {
 }
 .services a {
   text-decoration: none;
+  outline: none;
 }
 .services a:hover h2 {
   color: $fontsColor_h2_hover;
@@ -240,6 +244,9 @@ header {
   padding: 10% 20%;
   background: url(../img/photo16.png) no-repeat;
   background-size: 100%;
+}
+.wrapper_video a{
+  outline: none;
 }
 .wrapper_video h2 {
   @include fontsStyle(1.8125rem, normal, $fontsColor_1, $fontFamily_1);
@@ -398,6 +405,9 @@ header {
   padding: 5% 10%;
   background-color: $backgColor;
 }
+.wapper_footer a{
+  outline: none;
+}
 .wapper_footer h2 {
   padding-left: 5%;
 }
@@ -447,4 +457,5 @@ header {
 .wapper_copiright a {
   text-decoration: none;
   @include fontsStyle(0.8125rem, $fontWeight_1, $fontsColor_h2_hover, $fontFamily_2);
+  outline: none;
 }
